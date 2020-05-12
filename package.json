@@ -1,0 +1,37 @@
+{
+  "name": "@codecatalysts/mongodb-lib",
+  "version": "0.0.1",
+  "description": "Node.js implementation utilities for mongodb.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --ext .js .",
+    "lint:fix": "eslint --fix --ext .js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/codecatalysts/mongodb-lib.git"
+  },
+  "author": "CodeCatalysts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codecatalysts/mongodb-lib/issues"
+  },
+  "homepage": "https://github.com/codecatalysts/mongodb-lib#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-disable": "^2.0.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "jest": "^25.4.0",
+    "mongodb": "^3.5.6"
+  },
+  "peerDependencies": {
+    "mongodb": "^3.5.6"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

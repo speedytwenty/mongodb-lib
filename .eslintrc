@@ -1,0 +1,21 @@
+{
+  "extends": ["airbnb-base", "plugin:jest/recommended"],
+  "plugins": ["disable"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+  },
+  "rules": {
+    "max-len": ["error", 150, 2, {
+      "ignoreUrls": true,
+      "ignoreComments": false,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true,
+    }],
+    "no-param-reassign": ["error", { "props": true }],
+    "no-use-before-define": ["error", { "functions": false, "classes": false }],
+    "jest/consistent-test-it": ["error", { "fn": "test" }],
+    "no-plusplus": "off"
+  }
+}
