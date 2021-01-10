@@ -16,6 +16,7 @@
     "no-param-reassign": ["error", { "props": true }],
     "no-use-before-define": ["error", { "functions": false, "classes": false }],
     "jest/consistent-test-it": ["error", { "fn": "test" }],
+    "arrow-body-style": "off",
     "no-plusplus": "off"
   }
 }
